@@ -1,14 +1,35 @@
-# Luxury Pixel GitHub Pages
+# Luxury Pixel Watch Faces
 
-Live site: https://patriceac.github.io/luxury-pixel/
+Premium black-and-champagne watch faces for Wear OS.
 
-This repository hosts the public landing page and privacy policy for the Luxury Pixel Wear OS watch faces.
+**Live landing page:** https://patriceac.github.io/luxury-pixel-watch-faces/
 
-GitHub Pages should serve `index.html` from this repository root. The privacy policy remains available at `privacy.html`.
+## Downloads
 
-This Pages repository is a neutral download hub. Digital and analog source projects stay separate; copy release APKs here from each source repo when publishing a new build.
+| Face | Installer | Source |
+| --- | --- | --- |
+| Luxury Pixel Digital | [Download Digital APK](installers/luxury-pixel-digital.apk) | [Digital source repo](https://github.com/patriceac/luxury-pixel-digital-watch-face) |
+| Luxury Pixel Analog | [Download Analog APK](installers/luxury-pixel-analog.apk) | [Analog source repo](https://github.com/patriceac/luxury-pixel-analog-watch-face) |
 
-Installer APKs are published from `installers/`:
+## What This Repo Is
 
-- `installers/luxury-pixel-digital.apk` from the Digital repo `watchface/build/outputs/apk/release/watchface-release.apk`
-- `installers/luxury-pixel-analog.apk` from the Analog repo `watchface/build/outputs/apk/release/watchface-release.apk`
+This repository is the public landing page, download hub, and privacy policy for the Luxury Pixel watch faces.
+
+It is separate from the Android source repositories:
+
+- `luxury-pixel-digital-watch-face` contains the digital Wear OS source project.
+- `luxury-pixel-analog-watch-face` contains the analog Wear OS source project.
+- `luxury-pixel-watch-faces` contains the public website and release APK downloads.
+
+## Installer Sources
+
+The APKs in `installers/` are copied from release builds:
+
+- `installers/luxury-pixel-digital.apk` comes from the Digital repo at `watchface/build/outputs/apk/release/watchface-release.apk`.
+- `installers/luxury-pixel-analog.apk` comes from the Analog repo at `watchface/build/outputs/apk/release/watchface-release.apk`.
+
+## Privacy
+
+Luxury Pixel does not collect, store, sell, share, or transmit personal data.
+
+Privacy policy: [privacy.html](privacy.html)
