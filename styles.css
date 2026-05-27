@@ -505,7 +505,9 @@ h1 {
 
 .footer-links {
   display: flex;
+  flex-wrap: wrap;
   gap: 18px;
+  justify-content: flex-end;
 }
 
 .footer-links a {
@@ -645,6 +647,10 @@ h1 {
   .footer-inner {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .footer-links {
+    justify-content: flex-start;
   }
 }
 
